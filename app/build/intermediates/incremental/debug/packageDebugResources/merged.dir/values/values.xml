@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="eposBlack">#282829</color>
+    <color name="eposGray">#b1b3b3</color>
+    <color name="eposOrange">#f2951b</color>
+    <color name="eposOrangeDark">#DC781B</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Calculator</string>
+    <string name="calculatorOwner">Taschenrechner von EPOS CAT</string>
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="colorPrimary">@color/eposOrange</item>
+        <item name="colorPrimaryDark">@color/eposGray</item>
+        <item name="colorAccent">@color/eposGray</item>
+    </style>
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator"/>
+</resources>

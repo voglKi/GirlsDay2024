@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="eposGray">#b1b3b3</color>
+    <color name="eposOrange">#f2951b</color>
+    <color name="eposOrangeDark">#DC781B</color>
+    <color name="eposBlack">#282829</color>
+</resources>
