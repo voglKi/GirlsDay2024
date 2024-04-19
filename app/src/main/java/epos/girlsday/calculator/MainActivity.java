@@ -58,13 +58,13 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             if (v instanceof Button) {
                 Button button = (Button) v;
-                String buttonText = button.getText().toString();
-                String currentText = binding.tvResult.getText().toString(); //hier wird der aktuell angezeigte Eingabe ausgelesen
-                List<String> orderedNumberList = Arrays.asList(currentText.split("[-+×÷]"));
+                int buttonText = button.getText().toString();
+                float currentText = binding.tvResult.getText().toString(); //hier wird der aktuell angezeigte Eingabe ausgelesen
+                List<String> orderedNumberList = Arrays.asList(currentText.split("[-+\u00F7\u00D7]"));
                 String lastPart = orderedNumberList.get(orderedNumberList.size() - 1);
 
                 // Setze eine 0 voran, wenn ein Leerzeichen eingegeben wird.
-                if (currentText.isEmpty() && "+-×÷.".contains(buttonText)) {
+                if (currentText.isEmpty() && "+-\u00F7\u00D7.".contains(buttonText)) {
                     binding.tvResult.setText("0");
                 }
 
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 Matcher matcher = pattern.matcher(currentText);
 
                 // Überprüfe, ob das letzte Zeichen in der Liste enthalten ist und entferne es, wenn diese Bedingung erfüllt ist.
-                if (matcher.find() && "+-×÷.".contains(matcher.group()) && "+-×÷.".contains(buttonText)) {
+                if (matcher.find() && "+-×÷.".contains(matcher.group()) && "+-\u00F7\u00D7.".contains(buttonText)) {
                     binding.tvResult.setText(currentText.substring(0, currentText.length() - 1));
                 }
 
@@ -106,12 +106,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //Aufsplitten des Textes ab Rechenzeichen
-        List<Float> orderedNumberList = Arrays.stream(text.split("[-+×÷]")).map(Float::parseFloat).collect(Collectors.toList());
+        List<Float> orderedNumberList = Arrays.stream(text.split("[-+\u00F7\u00D7]")).map(Float::parseFloat).collect(Collectors.toList());
         List<Character> orderedOperatorList = new ArrayList<>();
 
         //String Rechenzeile wird in ein Array umgewandelt und durch iteriert, wobei Rechenzeichen in der Reihenfolge in die Liste orderedOperatorList hinzugefügt werden
         for (char c : text.toCharArray()) {
-            if (c == '+' || c == '-' || c == '×' || c == '÷') {
+            if (c == '+' || c == '-' || c == '\u00D7' || c == '\u00F7') {
                 orderedOperatorList.add(c);
             }
         }
@@ -131,14 +131,14 @@ public class MainActivity extends AppCompatActivity {
             float result;
             switch (operator) {
                 // Multiplication
-                case '×':
+                case '\u00D7':
                     result = firstOperand * secondOperand;
                     orderedNumberList.set(iterator.previousIndex(), result);
                     orderedNumberList.remove(iterator.nextIndex());
                     iterator.remove();
                     break;
                 // Division
-                case '÷':
+                case '\u002D':
                     if (secondOperand == 0) {
                         error = true;
                     } else {
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < orderedOperatorList.size(); i++) {
             if (orderedOperatorList.get(i) == '+') {
                 endResult = endResult + orderedNumberList.get(i + 1);
-            } else {
+            } else if (orderedOperatorList.get(i) == '-') {
                 endResult = endResult - orderedNumberList.get(i + 1);
             }
         }

@@ -1,8 +1,8 @@
-#Thu Apr 18 07:11:21 CEST 2024
-base.0=C\:\\Users\\modlma\\StudioProjects\\girlsday2024\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\modlma\\StudioProjects\\girlsday2024\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\modlma\\StudioProjects\\girlsday2024\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.3=C\:\\Users\\modlma\\StudioProjects\\girlsday2024\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+#Fri Apr 19 09:30:31 CEST 2024
+base.0=D\:\\Users\\weichelmi\\StudioProjects\\girlsday_incomplete\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\Users\\weichelmi\\StudioProjects\\girlsday_incomplete\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=D\:\\Users\\weichelmi\\StudioProjects\\girlsday_incomplete\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.3=D\:\\Users\\weichelmi\\StudioProjects\\girlsday_incomplete\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=3/classes.dex

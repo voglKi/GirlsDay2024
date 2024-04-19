@@ -9,95 +9,95 @@
 9        android:targetSdkVersion="33" />
 10
 11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\modlma\.gradle\caches\transforms-3\c6785632068e46fbd453bb286dec771b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.9.0] D:\Users\weichelmi\.gradle\caches\transforms-3\c6785632068e46fbd453bb286dec771b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 12        android:name="epos.girlsday.calculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\modlma\.gradle\caches\transforms-3\c6785632068e46fbd453bb286dec771b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.9.0] D:\Users\weichelmi\.gradle\caches\transforms-3\c6785632068e46fbd453bb286dec771b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\modlma\.gradle\caches\transforms-3\c6785632068e46fbd453bb286dec771b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.9.0] D:\Users\weichelmi\.gradle\caches\transforms-3\c6785632068e46fbd453bb286dec771b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="epos.girlsday.calculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\modlma\.gradle\caches\transforms-3\c6785632068e46fbd453bb286dec771b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\modlma\.gradle\caches\transforms-3\c6785632068e46fbd453bb286dec771b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.9.0] D:\Users\weichelmi\.gradle\caches\transforms-3\c6785632068e46fbd453bb286dec771b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] D:\Users\weichelmi\.gradle\caches\transforms-3\c6785632068e46fbd453bb286dec771b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:5:5-26:19
+17-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:5:5-26:19
 18        android:allowBackup="true"
-18-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:6:9-35
+18-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\modlma\.gradle\caches\transforms-3\c6785632068e46fbd453bb286dec771b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.9.0] D:\Users\weichelmi\.gradle\caches\transforms-3\c6785632068e46fbd453bb286dec771b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:7:9-65
+20-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:8:9-54
+23-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:8:9-54
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:9:9-43
+24-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:9:9-43
 25        android:label="@string/app_name"
-25-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:10:9-41
+25-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:10:9-41
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:11:9-54
+26-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:11:9-54
 27        android:supportsRtl="true"
-27-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:12:9-35
+27-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:12:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.Calculator" >
-29-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:13:9-48
+29-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:13:9-48
 30        <activity
-30-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:15:9-25:20
+30-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:15:9-25:20
 31            android:name="epos.girlsday.calculator.MainActivity"
-31-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:16:13-41
+31-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:16:13-41
 32            android:exported="true"
-32-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:17:13-36
+32-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:17:13-36
 33            android:label="@string/app_name"
-33-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:18:13-45
+33-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:18:13-45
 34            android:theme="@style/Theme.Calculator" >
-34-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:19:13-52
+34-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:19:13-52
 35            <intent-filter>
-35-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:20:13-24:29
+35-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:20:13-24:29
 36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:21:17-69
-36-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:21:25-66
+36-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:21:17-69
+36-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:21:25-66
 37
 38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:23:17-77
-38-->C:\Users\modlma\StudioProjects\girlsday2024\app\src\main\AndroidManifest.xml:23:27-74
+38-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:23:17-77
+38-->D:\Users\weichelmi\StudioProjects\girlsday_incomplete\app\src\main\AndroidManifest.xml:23:27-74
 39            </intent-filter>
 40        </activity>
 41
 42        <provider
-42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\modlma\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+42-->[androidx.emoji2:emoji2:1.2.0] D:\Users\weichelmi\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 43            android:name="androidx.startup.InitializationProvider"
-43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\modlma\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+43-->[androidx.emoji2:emoji2:1.2.0] D:\Users\weichelmi\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 44            android:authorities="epos.girlsday.calculator.androidx-startup"
-44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\modlma\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+44-->[androidx.emoji2:emoji2:1.2.0] D:\Users\weichelmi\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 45            android:exported="false" >
-45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\modlma\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+45-->[androidx.emoji2:emoji2:1.2.0] D:\Users\weichelmi\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 46            <meta-data
-46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\modlma\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+46-->[androidx.emoji2:emoji2:1.2.0] D:\Users\weichelmi\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\modlma\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+47-->[androidx.emoji2:emoji2:1.2.0] D:\Users\weichelmi\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 48                android:value="androidx.startup" />
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\modlma\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+48-->[androidx.emoji2:emoji2:1.2.0] D:\Users\weichelmi\.gradle\caches\transforms-3\559bbe704465ab7fd00186a828a98a44\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 49            <meta-data
-49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\modlma\.gradle\caches\transforms-3\4165a0bba6107f1669a3484564b6cd6a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\Users\weichelmi\.gradle\caches\transforms-3\4165a0bba6107f1669a3484564b6cd6a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\modlma\.gradle\caches\transforms-3\4165a0bba6107f1669a3484564b6cd6a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\Users\weichelmi\.gradle\caches\transforms-3\4165a0bba6107f1669a3484564b6cd6a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 51                android:value="androidx.startup" />
-51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\modlma\.gradle\caches\transforms-3\4165a0bba6107f1669a3484564b6cd6a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\Users\weichelmi\.gradle\caches\transforms-3\4165a0bba6107f1669a3484564b6cd6a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 52        </provider>
 53
 54        <uses-library
-54-->[androidx.window:window:1.0.0] C:\Users\modlma\.gradle\caches\transforms-3\4aa378a551b38de8b1ed98536882e2cd\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+54-->[androidx.window:window:1.0.0] D:\Users\weichelmi\.gradle\caches\transforms-3\4aa378a551b38de8b1ed98536882e2cd\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 55            android:name="androidx.window.extensions"
-55-->[androidx.window:window:1.0.0] C:\Users\modlma\.gradle\caches\transforms-3\4aa378a551b38de8b1ed98536882e2cd\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+55-->[androidx.window:window:1.0.0] D:\Users\weichelmi\.gradle\caches\transforms-3\4aa378a551b38de8b1ed98536882e2cd\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 56            android:required="false" />
-56-->[androidx.window:window:1.0.0] C:\Users\modlma\.gradle\caches\transforms-3\4aa378a551b38de8b1ed98536882e2cd\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+56-->[androidx.window:window:1.0.0] D:\Users\weichelmi\.gradle\caches\transforms-3\4aa378a551b38de8b1ed98536882e2cd\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 57        <uses-library
-57-->[androidx.window:window:1.0.0] C:\Users\modlma\.gradle\caches\transforms-3\4aa378a551b38de8b1ed98536882e2cd\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+57-->[androidx.window:window:1.0.0] D:\Users\weichelmi\.gradle\caches\transforms-3\4aa378a551b38de8b1ed98536882e2cd\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 58            android:name="androidx.window.sidecar"
-58-->[androidx.window:window:1.0.0] C:\Users\modlma\.gradle\caches\transforms-3\4aa378a551b38de8b1ed98536882e2cd\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+58-->[androidx.window:window:1.0.0] D:\Users\weichelmi\.gradle\caches\transforms-3\4aa378a551b38de8b1ed98536882e2cd\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 59            android:required="false" />
-59-->[androidx.window:window:1.0.0] C:\Users\modlma\.gradle\caches\transforms-3\4aa378a551b38de8b1ed98536882e2cd\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+59-->[androidx.window:window:1.0.0] D:\Users\weichelmi\.gradle\caches\transforms-3\4aa378a551b38de8b1ed98536882e2cd\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 60    </application>
 61
 62</manifest>
