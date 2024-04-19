@@ -1,7 +1,0 @@
-# pack-refs with: peeled fully-peeled sorted 
-feda6620429f2f6ece036e32c2d936db931328b9 refs/heads/incomplete
-feda6620429f2f6ece036e32c2d936db931328b9 refs/heads/master
-feda6620429f2f6ece036e32c2d936db931328b9 refs/remotes/origin/HEAD
-f171cf8ff47328369fd1ed4cdd92447def9940eb refs/remotes/origin/Michael_Test
-b8e16e5ef44f65595baae347e865db77bab037f3 refs/remotes/origin/incomplete
-feda6620429f2f6ece036e32c2d936db931328b9 refs/remotes/origin/master
